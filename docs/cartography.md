@@ -20,7 +20,7 @@ A curated gallery of my cartographic work.
 <div class="cartography-grid">
   <div class="cartography-card">
     <a href="#lightbox-1" class="cartography-link">
-      <img src="/assets/images/cartography/maharashtra_river_basins.png" alt="Maharashtra Basin">
+      <img src="../assets/images/cartography/maharashtra_river_basins.png" alt="Maharashtra Basin">
     </a>
     <div class="cartography-caption">
       <strong>Maharashtra River Basin</strong>
@@ -30,7 +30,7 @@ A curated gallery of my cartographic work.
 
   <div class="cartography-card">
     <a href="#lightbox-2" class="cartography-link">
-      <img src="/assets/images/cartography/Maharashtra_Forest_Cover.png" alt="Maharashtra Forest Cover">
+      <img src="../assets/images/cartography/Maharashtra_Forest_Cover.png" alt="Maharashtra Forest Cover">
     </a>
     <div class="cartography-caption">
       <strong>Forest Cover Map</strong>
