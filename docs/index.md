@@ -19,10 +19,14 @@ CHECKLIST FOR THIS PAGE:
 
 
 <div class="hero">
-  <img src="assets/images/profile.png" alt="[YOUR NAME]" class="profile-photo">
-  <h1>[YOUR NAME]</h1>
-  <p><strong>[YOUR JOB TITLE]</strong></p>
-  <p><em>[YOUR TAGLINE — e.g., Turning spatial data into insights | GIS | Remote Sensing | Python]</em></p>
+  <div class="hero-content">
+    <img src="assets/images/profile.png" alt="prasad kulkarni" class="profile-photo">
+    <h1>Prasad Kulkarni</h1>
+    <p>Cartographer | Spatial Analyst</p>
+    <p class="tagline">
+      Rain • River • Reservoir
+    </p>
+  </div>
 </div>
 
 ---
@@ -32,15 +36,10 @@ CHECKLIST FOR THIS PAGE:
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-[Replace this paragraph with your own bio. Write 3–4 sentences covering: your background and
-what you specialize in, the kinds of problems you work on, the tools and methods you use,
-and what you are currently looking for. Example below:]
+Civil Engineer with over 14+ years of professional experience in the Water Resources sector, working on Real Time Data Acquisition System, Surface Water Data monitoring and analysis, hydrological analysis, basin modelling, GIS-based spatial analysis, and flood forecasting systems. My work focuses on Hydro-Meteorological data collection, monitoring Real Time Data Acquisition System, and applying data-driven and technology-enabled solutions for effective water resource planning and management.
 
-I am a geospatial data scientist with a background in remote sensing and machine learning.
-I work on extracting actionable insights from satellite imagery and large spatial datasets
-using Python, Google Earth Engine, and open-source GIS tools. I am passionate about applying
-GeoAI techniques to real-world challenges in land use mapping, climate monitoring, and urban
-planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TARGET LOCATION].
+  I am currently working in the Water Resources Sector,  where I have been involved in planning, monitoring, and analysis of Real Time 
+Data Acquisition System. My experience spans hydrology, meteorology, rainfall analysis, basin and sub-basin modelling, and development of decision support systems for flood management.
 
 </div>
 
@@ -53,7 +52,7 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 ---
 
 [View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/[YOUR-NAME]-CV.pdf){ .md-button }
+<!-- [Download CV :material-download:](assets/[YOUR-NAME]-CV.pdf){ .md-button } -->
 
 
 ---
@@ -66,36 +65,34 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 
     ---
 
-    - QGIS, ArcGIS Pro, Google Earth Engine
-    - GDAL / OGR, GRASS GIS
+    - QGIS, Google Earth Engine
+    - GDAL, GRASS GIS
     - Multispectral and SAR image analysis
-    - Cloud Native Geospatial (COG, STAC, Zarr)
-
+    
 -   :material-code-braces:{ .lg .middle } **Programming**
 
     ---
 
     - Python — GeoPandas, NumPy, Pandas, Matplotlib
-    - R — sf, terra, ggplot2
-    - JavaScript — Leaflet, MapLibre GL
-    - SQL, PostgreSQL + PostGIS
+    - JavaScript — Leaflet
+    - SQL, MongoDB, PostgreSQL + PostGIS
 
--   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
+<!-- -   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
 
     ---
 
     - Supervised classification — Random Forest, XGBoost
     - Deep learning for image segmentation — U-Net, SAM
     - scikit-learn, PyTorch, TensorFlow
-    - Object detection in satellite imagery
+    - Object detection in satellite imagery -->
 
--   :material-earth:{ .lg .middle } **Web Mapping & Data**
+-   :material-earth:{ .lg .middle } **WebGIS & Data**
 
     ---
 
-    - Leaflet.js, Folium, MapLibre GL JS
-    - Cloud storage — AWS S3, Google Cloud Storage
-    - Data formats — GeoTIFF, GeoParquet, NetCDF
+    - Leaflet.js, Folium, MapLibre JS
+    - Cloud storage — Google Cloud Storage
+    - Data formats — GeoTIFF, NetCDF, CSV
     - Streamlit for data-driven web apps
 
 -   :material-database:{ .lg .middle } **Data & Cloud**
@@ -103,14 +100,21 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
     ---
 
     - PostgreSQL + PostGIS
-    - Cloud storage: AWS S3, Google Cloud Storage
-    - Data formats: GeoJSON, GeoTIFF, NetCDF, Zarr, GeoParquet
+    - Cloud storage: Google Cloud Storage
+    - Data formats: GeoJSON, GeoTIFF, NetCDF
 
--   :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
+-   :material-waves:{ .lg .middle } **Hydrological Analysis**
 
-    - Mission planning and flight operations
-    - Photogrammetry: Agisoft Metashape, OpenDroneMap
-    - Point cloud processing: CloudCompare, PDAL
+    - Hydrological Modelling (HEC-HMS)
+    - Hydrodynamic Modelling(HEC-RAS)
+  
+
+-    :material-water-thermometer-outline:{ .lg .middle } **Data Acquisition System**
+
+    - Real Time Data
+    - Time Series Data Analysis
+    - Statistical Analysis
+    - DAQ System Management
 </div>
 
 
@@ -118,5 +122,5 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 
 ## Connect
 
-[GitHub](https://github.com/[YOUR-GITHUB-USERNAME]){ .md-button }
-[LinkedIn](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]){ .md-button }
+[GitHub](https://github.com/kulprasad2007){ .md-button }
+[Facebook](https://facebook.com/kulprasad2007){ .md-button }

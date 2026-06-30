@@ -7,9 +7,9 @@
 # Edit all lines marked [YOUR ...] to customize your site
 # ============================================================
 
-site_name: "[YOUR NAME] - Geospatial Portfolio"
-site_description: "Portfolio of [YOUR NAME] — GIS, Remote Sensing, and Spatial Data Science"
-site_author: "[YOUR NAME]"
+site_name: "Prasad's Portfolio"
+site_description: "Portfolio of Prasad Kulkarni — GIS, Remote Sensing, and Spatial Data Science"
+site_author: "Prasad Kulkarni"
 # After your site is live, uncomment and set this to your actual GitHub Pages URL:
 #site_url: "https://your-username.github.io/your-repo-name"
 
@@ -19,21 +19,21 @@ theme:
   # Browse icons at https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   # and replace "material/earth" with any "material/..." icon name you prefer.
   icon:
-    logo: material/earth
+    logo: material/weather-partly-cloudy
   palette:
     # To change the color, edit the 'primary' and 'accent' values below for both
     # the 'default' (light) and 'slate' (dark) schemes.
     # Available colors: red, pink, purple, deep purple, indigo, blue, light blue,
     # cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
     - scheme: default            # Light mode
-      primary: indigo
-      accent: blue
+      primary: light blue
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate              # Dark mode
-      primary: indigo
-      accent: blue
+      primary: black
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -59,16 +59,16 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-copyright: "Copyright &copy; [YOUR NAME]"
+copyright: "Copyright &copy; Prasad kulkarni"
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/[YOUR-GITHUB-USERNAME]
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]
+      link: https://github.com/kulprasad2007
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/kulprasad2007
     - icon: material/email
-      link: mailto:[YOUR-EMAIL-ADDRESS]
+      link: mailto:kulprasad2024@outlook.com
 
 
 plugins:
@@ -80,14 +80,16 @@ nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
-    - "Sample Project": projects/sample-project.md
-    - "Jupyter Notebook Project": projects/sample-notebook.ipynb
+    - "Flood Mapping Project": projects/godavari-flood.md
+    - "Jupyter Notebook Project": projects/Daily-Rainfall-From-IMD-Gridded-Data.ipynb
     # HOW TO ADD A NEW PROJECT:
     # 1. Copy docs/projects/sample-project.md to docs/projects/your-project-name.md
     #    (or drop an .ipynb file into docs/projects/ for a Jupyter notebook project)
     # 2. Edit the new file with your project content
     # 3. Add a line below (same format): - "Your Project Title": projects/your-project-name.md
     # 4. Add a project card on docs/projects/index.md
-  - Publications: publications.md
-  - Experience: experience.md
+  # - Blog:
+  #   - "All Posts": blog/index.md
+  #   - "Sample Post": blog/sample-post.md
+  - Cartography: cartography.md
   - Contact: contact.md

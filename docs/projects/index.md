@@ -19,29 +19,28 @@ A selection of my geospatial projects. Click any card to see the full write-up.
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/placeholder-project.png)
+![](../assets/images/godavari-flood.png)
 
-**[Sample Project](sample-project.md)**
+**[Godavari Flood Mapping](godavari-flood.md)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+This project utilizes satellite remote sensing to map and analyze the severe flooding events in the Godavari River basin during 2025.
 
-`[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
+`GEE` `GEE User Interface (ui) API` `Sentinel-1 SAR`
 
-[View Project →](sample-project.md){ .md-button }
+[View Project →](godavari-flood.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/placeholder-notebook.png)
+![](../assets/images/imd.png)
 
-**[Sample Notebook](sample-notebook.ipynb)**
+**[IMD Daily Rainfall](Daily-Rainfall-From-IMD-Gridded-Data.ipynb)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+This project demonstrates how to download gridded rainfall observations from the India Meteorological Department (IMD) using the **imdlib** Python package.
 
-`Python` `pandas` `Folium`
+`Python` `pandas` `imdlib`
 
-[View Project →](sample-notebook.ipynb){ .md-button }
+[View Project →](Daily-Rainfall-From-IMD-Gridded-Data.ipynb){ .md-button }
 </div>
+
 
 </div>

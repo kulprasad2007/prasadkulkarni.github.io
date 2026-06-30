@@ -1,3 +1,24 @@
+/* Import custom fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Target the site title */
+.md-header__title {
+  font-family: 'Poppins', sans-serif; /* Header uses Poppins */
+  font-size: 1.2rem; /* Adjust the size as needed */;
+  font-weight: 300; /* Semi-bold for site title */
+}
+
+/* Apply Poppins to top header navigation links */
+.md-header .md-nav__link,
+.md-header .md-tabs__link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.md-header__title {
+  font-family: 'Poppins', sans-serif;
+}
 /* Profile photo on the Home page */
 .profile-photo {
   border-radius: 50%;
@@ -7,18 +28,75 @@
   display: block;
   margin: 0 auto 0.75rem auto;
 }
+cd..
+.hero h1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-family: 'poppins';
+}
 
-/* Hero section on the Home page */
+/* Hero section with background image and dark overlay */
 .hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 1rem 1rem 1.25rem 1rem;
-  background: linear-gradient(135deg, #e8f4f8 0%, #f0f7ff 50%, #e8f0fe 100%);
+  height: 50vh;
+  min-height: 320px;
   border-radius: 8px;
+  color: #fff;
+  overflow: hidden;
+  background-image: url("../images/hero_back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.65);
+  z-index: 1;
+}
+
+.hero .hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem 1rem;
+}
+
+.hero .profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  outline: 2px solid #4B0082;
+  outline-offset: 4px;
 }
 
 .hero h1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+  font-family: 'poppins'; 
+  color: #013077;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.hero p {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  color: rgba(32, 32, 32, 0.8);
+}
+
+@media (max-width: 600px) {
+  .hero { height: 42vh; min-height: 260px; }
+  .hero h1 { font-size: 1.8rem; }
 }
 
 .hero p {
@@ -34,11 +112,31 @@
 .about-section {
   display: flex;
   gap: 2rem;
+  font-family: 'roboto', sans-serif; /* Change to your preferred font */
+  font-weight: 300;
   align-items: center;
 }
 
 .about-text {
   flex: 1;
+  font-family: 'roboto', sans-serif; /* Change to your preferred font */
+  text-align: justify;
+}
+
+.processing-steps {
+  text-align: justify;
+}
+
+.processing-steps li {
+  text-align: justify;
+}
+
+.overview-text {
+  text-align: justify;
+}
+
+.key-findings {
+  text-align: justify;
 }
 
 .about-image {
@@ -111,4 +209,186 @@
   object-fit: cover;
   border-radius: 4px;
   margin-bottom: 0.75rem;
+}
+
+/* Gallery grid for cartography page */
+.cartography-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.cartography-card {
+  background-color: #ffffff;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.blog-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 0.85rem;
+  background-color: #f7f9ff;
+  transition: box-shadow 0.2s ease;
+  width: 100%;
+  max-width: none;
+}
+
+.blog-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .blog-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.text-justyfy {
+  text-align: justify;
+}
+
+.cartography-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+}
+
+.cartography-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.cartography-caption {
+  padding: 1rem;
+}
+
+.cartography-caption strong {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--md-primary-fg-color);
+}
+
+.cartography-caption p {
+  margin: 0;
+  color: rgba(32, 32, 32, 0.78);
+}
+
+.cartography-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(10, 10, 10, 0.86);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.cartography-lightbox:target {
+  display: flex;
+}
+
+.cartography-lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+}
+
+.cartography-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cartography-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.cartography-prev {
+  left: 1rem;
+}
+
+.cartography-next {
+  right: 1rem;
+}
+
+.cartography-nav:hover,
+.cartography-close:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Your existing CSS stays exactly the same */
+.md-typeset .grid.cards > ul > li {
+  background-color: #f0f7ff;
+}
+
+.project-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f0f7ff;
+  transition: box-shadow 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li,
+[data-md-color-scheme="slate"] .project-card {
+  /* This changes the background to a dark gray that matches the theme */
+  background-color: #1e212b; 
+  
+  /* Optional: Adjust the border color for dark mode so it isn't too bright */
+  border-color: var(--md-default-fg-color--lightest); 
 }
