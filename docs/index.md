@@ -36,12 +36,12 @@ CHECKLIST FOR THIS PAGE:
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-Civil Engineer with over 14+ years of professional experience in the Water Resources sector, working on Real Time Data Acquisition System, Surface Water Data monitoring and analysis, hydrological analysis, basin modelling, GIS-based spatial analysis, and flood forecasting systems. My work focuses on Hydro-Meteorological data collection, monitoring Real Time Data Acquisition System, and applying data-driven and technology-enabled solutions for effective water resource planning and management.
+Civil Engineer with over 14+ years of professional experience in the Water Resources sector spacially in Hydrology, working on Real Time Data Acquisition System, Surface Water Data monitoring and analysis, hydrological analysis, basin modelling, GIS-based spatial analysis, and flood forecasting systems. My work focuses on Hydro-Meteorological data collection, monitoring Real Time Data Acquisition System, and applying data-driven and technology-enabled solutions for effective water resource planning and management.
 
   I am currently working in the Water Resources Sector,  where I have been involved in planning, monitoring, and analysis of Real Time 
 Data Acquisition System. My experience spans hydrology, meteorology, rainfall analysis, basin and sub-basin modelling, and development of decision support systems for flood management.
 
-</div>
+</div>git 
 
 <div class="about-image">
   <img src="assets/images/about.png" alt="About">
