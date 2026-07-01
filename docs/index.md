@@ -41,7 +41,7 @@ Civil Engineer with over 14+ years of professional experience in the Water Resou
   I am currently working in the Water Resources Sector,  where I have been involved in planning, monitoring, and analysis of Real Time 
 Data Acquisition System. My experience spans hydrology, meteorology, rainfall analysis, basin and sub-basin modelling, and development of decision support systems for flood management.
 
-</div>git 
+</div> 
 
 <div class="about-image">
   <img src="assets/images/about.png" alt="About">
