@@ -105,11 +105,15 @@ Data Acquisition System. My experience spans hydrology, meteorology, rainfall an
 
 -   :material-waves:{ .lg .middle } **Hydrological Analysis**
 
+    ---
+
     - Hydrological Modelling (HEC-HMS)
     - Hydrodynamic Modelling(HEC-RAS)
   
 
 -    :material-water-thermometer-outline:{ .lg .middle } **Data Acquisition System**
+
+    ---
 
     - Real Time Data
     - Time Series Data Analysis
