@@ -68,6 +68,16 @@ A curated gallery of my cartographic work.
     </div>
   </div>
 
+  <div class="cartography-card">
+    <a href="#lightbox-5" class="cartography-link">
+      <img src="../assets/images/cartography/Maharashtra_SPI_2026" alt="SP Index 2026">
+    </a>
+    <div class="cartography-caption">
+      <strong>Standardize Precipitation Index Map</strong>
+      <p>A spatial analysis using 45 years of historical satellite data to map the meteorological drought conditions across the state. This map visualizes the Standardized Precipitation Index (SPI)</p>
+    </div>
+  </div>
+
 </div>
 
 
