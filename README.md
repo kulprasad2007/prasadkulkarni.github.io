@@ -1,6 +1,6 @@
 # Prasad's Portfolio
 
-This is the repository for my portfolio website. The portfolio is hosted at https://prasadkulkarni.github.io/
+This is the repository for my portfolio website. The portfolio is hosted at https://prasadkulkarni.in/
 
  This website is built using the following tools
  
