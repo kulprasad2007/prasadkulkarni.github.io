@@ -70,7 +70,7 @@ A curated gallery of my cartographic work.
 
   <div class="cartography-card">
     <a href="#lightbox-5" class="cartography-link">
-      <img src="../assets/images/cartography/Maharashtra_SPI_2026" alt="SP Index 2026">
+      <img src="../assets/images/cartography/Maharashtra_SPI_2026.png" alt="SP Index 2026">
     </a>
     <div class="cartography-caption">
       <strong>Standardize Precipitation Index Map</strong>
@@ -113,5 +113,12 @@ A curated gallery of my cartographic work.
   <a href="#" class="cartography-close">×</a>
   <a href="#lightbox-2" class="cartography-nav cartography-prev">‹ Prev</a>
   <img src="../assets/images/cartography/maharashtra_idw_19-07-2026.png" alt="Rainfall IDW 2026 Large">
+  <a href="#lightbox-1" class="cartography-nav cartography-next">Next ›</a>
+</div>
+
+<div id="lightbox-6" class="cartography-lightbox">
+  <a href="#" class="cartography-close">×</a>
+  <a href="#lightbox-2" class="cartography-nav cartography-prev">‹ Prev</a>
+  <img src="../assets/images/cartography/Maharashtra_SPI_2026.png" alt="SP Index 2026">
   <a href="#lightbox-1" class="cartography-nav cartography-next">Next ›</a>
 </div>
