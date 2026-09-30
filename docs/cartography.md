@@ -69,7 +69,7 @@ A curated gallery of my cartographic work.
   </div>
 
   <div class="cartography-card">
-    <a href="#lightbox-5" class="cartography-link">
+    <a href="#lightbox-6" class="cartography-link">
       <img src="../assets/images/cartography/Maharashtra_SPI_2026.png" alt="SP Index 2026">
     </a>
     <div class="cartography-caption">
